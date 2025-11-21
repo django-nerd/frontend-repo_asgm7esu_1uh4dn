@@ -23,7 +23,7 @@ function USA() {
       <Header />
       <div className="max-w-5xl mx-auto px-4 py-10">
         <h1 className="text-3xl font-black text-slate-900">Mis Recomendaciones USA</h1>
-        <p className="mt-2 text-slate-700">Productos de belleza, ropa deportiva y zapatillas disponibles en Estados Unidos. Todos los enlaces son de afiliados.</p>
+        <p className="mt-2 text-slate-700">Una colección pensada para elevar tu día a día: skincare que funciona, prendas deportivas que estilizan y zapatillas diseñadas para confort y estilo. Descubrí lo mejor del mercado en Estados Unidos, todo en un solo lugar.</p>
       </div>
 
       <ProductSection title="Belleza (USA)" items={beautyUSA} />
