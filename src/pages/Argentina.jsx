@@ -23,7 +23,7 @@ function Argentina() {
       <Header />
       <div className="max-w-5xl mx-auto px-4 py-10">
         <h1 className="text-3xl font-black text-slate-900">Mis Recomendados Argentina</h1>
-        <p className="mt-2 text-slate-700">Productos con envío rápido dentro de Argentina. Precios actualizados.</p>
+        <p className="mt-2 text-slate-700">Una selección pensada para acompañar tu rutina: skincare efectivo, ropa deportiva cómoda y zapatillas ideales para entrenar o usar todos los días. Descubrí opciones confiables y accesibles dentro de Argentina, todo en un solo lugar.</p>
       </div>
 
       <ProductSection title="Belleza (AR)" items={beautyAR} />
