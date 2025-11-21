@@ -8,6 +8,7 @@ import USA from './pages/USA'
 import Argentina from './pages/Argentina'
 import Blog from './pages/Blog'
 import Test from './Test'
+import Admin from './pages/Admin'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/ar" element={<Argentina />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/test" element={<Test />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
